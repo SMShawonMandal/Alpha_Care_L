@@ -332,3 +332,24 @@ a{
 .feedback fieldset {
    padding: 20px 40px;
  }
+/*About*/
+
+.sliders {
+    height: 80%;
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 40px;
+    padding: 35px 50px;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.s0 {
+    padding-top: 100px;
+}
+
+.s1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
