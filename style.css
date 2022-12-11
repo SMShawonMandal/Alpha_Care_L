@@ -1,0 +1,334 @@
+/* Home */
+*{
+    margin : 0px;
+    padding : 0px;
+}
+body {
+    margin : 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.navbar {
+    display : flex;
+    align-items : center;
+    justify-content: space-between;
+    background:linear-gradient(10deg,#5ac8fa 20%, #ff6464 40%);
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.navbar .logo span{
+    color: mediumvioletred;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.navbar .links {
+    display: flex;
+    font-size: large;
+}
+
+.navbar .link {
+    margin-left: 13px;
+    font-weight: bold;
+}
+
+.navbar .link:hover {
+    color: #fdcd3b;
+    cursor: pointer;
+}
+
+.slide{
+    width: 100%;
+    height: 100%;
+    background-image: url(./photos/wallpaperflare.com_wallpaper\ \(4\).jpg);
+    background-size: cover;
+}
+
+.first .title{
+padding: 150px 20px 20px 20px;
+text-align: center;
+color: mediumvioletred;
+font-weight: bold;
+}
+.first .brief{
+    text-align: center;
+    padding: 50px 20px 150px 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: mediumvioletred;
+    font-weight: normal;
+}
+
+.search {
+    background-color: #fdcd3b;
+}
+.search{
+    display: flex;
+    flex-direction:column;
+    padding-bottom: 12px;
+    padding-top: 10px;
+    align-items: center;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+input {
+    height: 2.5em;
+    margin: 0;
+    border-color: rgb(234, 222, 85);
+    padding: 0 10px;
+    border-radius: 5px;
+}
+input[type="search" i] {
+    appearance: auto;
+    box-sizing: border-box;
+    padding: 1px 2px;
+}
+.text{
+    width: 70%;
+}
+.button {
+    cursor: pointer;
+    transition: 0.6s;
+}
+/* .social {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.social .links {
+    display: flex;
+    font-size: large;
+}
+
+.social .link {
+    margin-left: 15px;
+}
+
+.social .link:hover {
+    color: #fdcd3b;
+    cursor: pointer;
+} */
+/* Services */
+.services #l0{
+    text-align: center;
+    color: blue;
+    padding-top: 40px;
+    padding-bottom:20px;
+    font-weight: bold;
+}
+.services {
+    height: 80%;
+	/* display: flex; */
+	text-align: center;
+	gap: 40px;
+	padding: 35px 50px;
+}
+.services img {
+	height: 100px;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10%;
+}
+h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+}
+.services .l1{
+    display: flex;
+    justify-content: center;
+}
+.services .l2{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+/* Medicines */
+.search1{
+    display: flex;
+    flex-direction:column;
+    padding-bottom: 12px;
+    padding-top: 10px;
+    align-items: center;
+}
+.main_title .m0{
+    text-align: center;
+    color: blue;
+    padding-top: 40px;
+    padding-bottom:20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.medicines {
+    height: 80%;
+	display:flex;
+    flex-wrap: wrap;
+	text-align: center;
+	gap: 40px;
+	padding: 35px 50px;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+.medicines p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.medicines img{
+	height: 80px;
+    width: 80px;
+    /* margin-top: 30px; */
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+}
+.medicines h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+.medicines button{
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px
+}
+/* .main_title m0{
+    color: midnightblue;
+    text-align: center;
+    display: flex;
+} */
+.medicines .m1{
+    display: table;
+}
+.medicines .m2{
+    display: table;
+}
+.medicines .m3{
+    display: table;
+}
+.medicines .m4{
+    display: table;
+}
+.medicines .m5{
+    display: table;
+}
+.medicines .m6{
+    display: table;
+}
+.medicines .m7{
+    display: table;
+}
+.medicines .m8{
+    display: table;
+}
+.medicines .m9{
+    display: table;
+}
+.medicines .m10{
+    display: table;
+}
+.medicines .m11{
+    display: table;
+}
+.medicines .m12{
+    display: table;
+}
+/* .medicines .m13{
+    display: table;
+}
+.medicines .m14{
+    display: table;
+} */
+/* footer */
+.footer {
+    bottom: 0px;
+    width: 100%;
+    background-color: #5ac8fa;
+    padding: 25px 0px;
+    margin: 0px;
+    text-align: center;
+}
+/* Review */
+.body{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 30px 30px;
+}
+.body .a{
+    width: 20%;
+    height: 350px;
+    border: 1px solid #5ac8fa;
+    margin-right: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    flex-direction: row;
+    padding: 30px 20px 30px 20px;
+    display: table;
+}
+.r0{
+    padding-bottom: 30px;
+}
+.r1{
+    padding-bottom: 30px;
+}
+  .checked {
+    color: orange;
+  }
+  .body .a button{
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+  }
+  /* Feedback */
+  .feedback{
+    margin: 40px 20px 40px 20px;
+  }
+  .feedback body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: cursive;
+  }
+
+ .feedback input,textarea {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+  }
+
+.feedback label {
+    line-height: 1.9rem;
+  }
+
+.feedback input[type="submit"] {
+   transform: translate(2.2%);
+   padding: 3px;
+   margin-top: 0.6rem;
+   font-family: cursive;
+   font-weight: bold;
+  }
+  .feedback #send{
+    width: 10%;
+  }
+
+.feedback fieldset {
+   padding: 20px 40px;
+ }
